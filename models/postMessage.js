@@ -14,6 +14,10 @@ const postSchema = mongoose.Schema({
         type: Date,
         default: new Date(),
     },
+    competed: {
+        type: Boolean,
+        default: false,
+    },
 })
 
 var PostMessage = mongoose.model('PostMessage', postSchema);

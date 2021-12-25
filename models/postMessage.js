@@ -14,7 +14,7 @@ const postSchema = mongoose.Schema({
         type: Date,
         default: new Date(),
     },
-    competed: {
+    completed: {
         type: Boolean,
         default: false,
     },
